@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Kevin's Kwiz!</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "main.js"></script>
+
+</head>
+
+
+<body>
+<h1>This is best quiz on the internet!</h1>
+
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">In Github, what command allows you to copy an existing respitory to make it your own?</p>
+<input id = "textbox" type = "text" name = "question1">
+
+<p class = "questions">Responsible for the design, and style of a website</p>
+<input type = "radio" id = "mc" name = "question2" value = "HTML"> HTML<br>
+<input type = "radio" id = "mc" name = "question2" value = "CSS"> CSS<br>
+
+<p class = "questions">In Ruby, classes “inherit” many _________ that make it easy to do powerful things with a few commands.</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "functions"> functions<br>
+<input type = "radio" id = "mc" name = "question3" value = "strings"> strings<br>
+
+<p class = "questions">Ruby objects are defined as ______</p>
+<input type = "radio" id = "mc" name = "question4" value = "classes"> classes<br>
+<input type = "radio" id = "mc" name = "question4" value = "id's"> id's<br>
+
+<p class = "questions">A(n) ________ is an example of something that follows the blueprint of the class.</p>
+<input type = "radio" id = "mc" name = "question5" value = "occurrence"> occurrence<br>
+<input type = "radio" id = "mc" name = "question5" value = "instance"> instance<br>
+
+<p class = "questions"> It is not a “thing”. It’s just a name for a thing (an object).</p>
+<input type = "radio" id = "mc" name = "question6" value = "variable"> variable<br>
+<input type = "radio" id = "mc" name = "question6" value = "function"> function<br>
+
+<p class = "questions"> A Hash assigns _______ to keys, so that values can be looked up by their key..</p>
+<input type = "radio" id = "mc" name = "question7" value = "values"> values<br>
+<input type = "radio" id = "mc" name = "question7" value = "letters"> letters<br>
+
+<p class = "questions"> Variables name things, methods name _______ (code).</p>
+<input type = "radio" id = "mc" name = "question8" value = "other things"> other things<br>
+<input type = "radio" id = "mc" name = "question8" value = "behaviour"> behaviour<br>
+
+<p class = "questions">(Ruby on Rails) These files contain the HTML, CSS, and Javascript needed to display web pages.</p>
+<input type = "radio" id = "mc" name = "question9" value = "models"> models<br>
+<input type = "radio" id = "mc" name = "question9" value = "views">views<br>
+
+<p class = "questions"> these files execute the right commands in the right order.</p>
+<input type = "radio" id = "mc" name = "question10" value = "controllers">controllers<br>
+<input type = "radio" id = "mc" name = "question10" value = "views"> views<br>
+
+
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+</html>
+
+</body>
